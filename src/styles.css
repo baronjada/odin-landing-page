@@ -33,12 +33,46 @@ a {
   font-size: 18px;
 }
 
-.header {
+img {
+  width: 400px;
+}
+
+.header,
+.hero {
   background-color: #1f2937;
+}
+
+.header {
   margin: 0;
   padding: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.hero {
+  padding: 24px 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.hero-content {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.hero-content p {
+  color: #e5e7eb;
+}
+
+.hero-link {
+  background-color: #3882f6;
+  padding: 6px 18px;
+  border-radius: 8px;
 }
