@@ -91,6 +91,12 @@ img {
   border-radius: 8px;
 }
 
+.icon-image {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
 @media (max-width: 1200px) {
   #centred-content-wrapper {
     max-width: 740px;
