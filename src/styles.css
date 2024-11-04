@@ -78,7 +78,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 12px;
+  gap: 24px;
 }
 
 .hero-content p {
@@ -87,6 +87,26 @@ img {
 
 .hero-link {
   background-color: #3882f6;
-  padding: 6px 18px;
+  padding: 8px 36px;
   border-radius: 8px;
+}
+
+@media (max-width: 1200px) {
+  #centred-content-wrapper {
+    max-width: 740px;
+  }
+
+  .header {
+    padding: 12px 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 56px 0px;
+  }
+
+  img {
+    width: 740px;
+  }
 }
