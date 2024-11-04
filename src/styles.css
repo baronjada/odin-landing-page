@@ -8,14 +8,6 @@ body {
   background-color: #1f2937;
 }
 
-#centred-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex-shrink: 0;
-}
-
 h1 {
   color: white;
   display: flex;
@@ -23,7 +15,7 @@ h1 {
   margin-right: 12px;
 }
 
-h2 {
+.hero-text {
   color: white;
   font-size: 48px;
 }
@@ -67,10 +59,10 @@ img {
 }
 
 .hero {
-  padding: 24px 12px;
   display: flex;
   justify-content: space-between;
   gap: 48px;
+  padding: 56px 12px;
 }
 
 .hero-content {
@@ -91,28 +83,41 @@ img {
   border-radius: 8px;
 }
 
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  background-color: white;
+  padding: 52px 0px 104px;
+}
+
+.cards-section-heading h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.card {
+  max-width: 200px;
+}
+
 .icon-image {
   max-width: 200px;
   max-height: 200px;
   object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 12px;
 }
 
-@media (max-width: 1200px) {
-  #centred-content-wrapper {
-    max-width: 740px;
-  }
-
-  .header {
-    padding: 12px 0;
-  }
-
-  .hero {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 56px 0px;
-  }
-
-  img {
-    width: 740px;
-  }
+.icon-text {
+  color: #1f2937;
+  text-align: center;
 }
