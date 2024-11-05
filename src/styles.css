@@ -121,3 +121,24 @@ img {
   color: #1f2937;
   text-align: center;
 }
+
+.testimonial {
+  height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 44px;
+}
+
+.testimonial-quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.testimonial-author {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: auto;
+}
