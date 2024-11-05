@@ -8,6 +8,16 @@ body {
   background-color: #1f2937;
 }
 
+.header-width-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 h1 {
   color: white;
   display: flex;
@@ -39,30 +49,16 @@ a {
   font-size: 18px;
 }
 
-img {
-  width: 700px;
+.hero-image img {
+  width: 600px;
   height: 360px;
-}
-
-.header,
-.hero {
-  background-color: #1f2937;
-}
-
-.header {
-  margin: 0;
-  padding: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .hero {
   display: flex;
   justify-content: space-between;
   gap: 48px;
-  padding: 56px 12px;
+  padding: 56px 0px;
 }
 
 .hero-content {
@@ -101,17 +97,18 @@ img {
 
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 24px;
+  padding: 0 48px;
 }
 
 .card {
-  max-width: 200px;
+  max-width: 180px;
 }
 
 .icon-image {
-  max-width: 200px;
-  max-height: 200px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 12px;
