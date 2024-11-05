@@ -8,14 +8,10 @@ body {
   background-color: #1f2937;
 }
 
-.header-width-wrapper {
+.header-width-wrapper,
+.hero-width-wrapper {
   width: 1200px;
   margin: 0 auto;
-  padding: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 h1 {
@@ -23,11 +19,6 @@ h1 {
   display: flex;
   flex-shrink: 0;
   margin-right: 12px;
-}
-
-.hero-text {
-  color: white;
-  font-size: 48px;
 }
 
 ul {
@@ -43,6 +34,26 @@ li {
   flex-shrink: 0;
 }
 
+.hero-text {
+  color: white;
+  font-size: 48px;
+}
+
+.header-width-wrapper {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-width-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 56px 0px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -52,13 +63,6 @@ a {
 .hero-image img {
   width: 600px;
   height: 360px;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-between;
-  gap: 48px;
-  padding: 56px 0px;
 }
 
 .hero-content {
