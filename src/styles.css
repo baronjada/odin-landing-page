@@ -152,7 +152,8 @@ a {
 .testimonial-author {
   font-size: 22px;
   font-weight: bold;
-  margin-left: auto;
+  display: flex;
+  justify-content: end;
 }
 
 .CTA {
