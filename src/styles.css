@@ -16,7 +16,8 @@ body {
 }
 
 .cards-section-width-wrapper,
-.testimonial-width-wrapper {
+.testimonial-width-wrapper,
+.CTA-content {
   width: 1000px;
   margin: 0 auto;
 }
@@ -164,11 +165,14 @@ a {
 
 .CTA-width-wrapper {
   background-color: #3882f6;
-  height: 200px;
   border-radius: 15px;
+}
+
+.CTA-content {
+  height: 200px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .CTA-text {
@@ -183,4 +187,15 @@ a {
 .CTA-link:hover {
   background-color: white;
   color: #3882f6;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 0;
+}
+
+.footer-copy {
+  color: white;
 }
