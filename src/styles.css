@@ -9,7 +9,8 @@ body {
 }
 
 .header-width-wrapper,
-.hero-width-wrapper {
+.hero-width-wrapper,
+.CTA-width-wrapper {
   width: 1200px;
   margin: 0 auto;
 }
@@ -83,7 +84,8 @@ a {
   color: #e5e7eb;
 }
 
-.hero-link {
+.hero-link,
+.CTA-link {
   background-color: #3882f6;
   padding: 8px 36px;
   border-radius: 8px;
@@ -150,4 +152,35 @@ a {
   font-size: 22px;
   font-weight: bold;
   margin-left: auto;
+}
+
+.CTA {
+  background-color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CTA-width-wrapper {
+  background-color: #3882f6;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.CTA-text {
+  color: white;
+}
+
+.CTA-link {
+  border: 2px solid white;
+}
+
+.hero-link:hover,
+.CTA-link:hover {
+  background-color: white;
+  color: #3882f6;
 }
